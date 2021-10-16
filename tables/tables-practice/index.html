@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>tables practice</title>
+        <style>
+            table{
+                margin-left: auto;
+                margin-right: auto;
+                width: 600px;
+            }
+            table, td, th {
+                border: 1px solid #aaa;
+                border-collapse: collapse;
+                padding: 8px;
+                line-height: 1.3;
+            }
+            th {
+                background-color: cyan;
+                text-align: left;
+            }
+            td{
+                background-color: white;
+            }
+            .label {
+                font-weight: 600;
+            }
+        </style>
+    </head>
+    <body style="background-color: lightcyan;">
+        <table>
+            <tr>
+                <th colspan="3">trial 12345</th>
+                <th>16 Oct 2021</th>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <span class="label">Pay to:</span><br>
+                    The tech park<br>
+                    123 wilow street<br>
+                    Boulevard, L.A - 567892
+                </td>
+                <td colspan="2">
+                    <span class="label">Costumer:</span><br>
+                    Lior Aharon<br>
+                    Damn building<br>
+                    Hanuriyout 23<br>
+                    Nesher
+                </td>
+            </tr>
+            <tr>
+                <th>Name/Description</th>
+                <th>Qty.</th>
+                <th>MRP</th>
+                <th>Amount</th>
+            </tr>
+            <tr>
+                <td>Burger</td>
+                <td>3</td>
+                <td>50</td>
+                <td>150</td>
+            </tr>
+            <tr>
+                <td>Fries</td>
+                <td>3</td>
+                <td>20</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <th colspan="3">Subtotal:</th>
+                <td>210</td>
+            </tr>
+            <tr>
+                <th colspan="2">Tax:</th>
+                <td>10%</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <th colspan="3">Grand Total:</th>
+                <td>231 Shekels</td>
+            </tr>
+        </table>
+    </body>
+</html>

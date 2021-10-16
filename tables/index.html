@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>tables</title>
+        <style>
+            table {
+                width: 600px;
+                background-color: lightblue;
+                margin-top: 16px;
+                margin-bottom: 16px;
+            }
+            table, td, th {
+                border: 1px solid black;
+                border-collapse: collapse;
+                font-size: 24px;
+            }
+            td, th {
+                padding: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption>My friends</caption>
+            <tr>
+                <td rowspan="6">friends</td>
+                <th>Name</th>
+                <th>Last Name</th>
+                <th>Subject</th>
+                <th>Gender</th>
+            </tr>
+            <tr>
+                <td>Lior</td>
+                <td>Aharon</td>
+                <td>DevOps engineer</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>Noam</td>
+                <td>Kadusi</td>
+                <td>Officer</td>
+                <td>Female</td>
+            </tr>
+            <tr>
+                <td colspan="4" style="text-align: center;">Maor More</td>
+            </tr>
+            <tr>
+                <td>Shahar</td>
+                <td>Blumenfeld</td>
+                <td>Combat</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>Naama</td>
+                <td>Kaberman</td>
+                <td>Guidence</td>
+                <td>Female</td>
+            </tr>
+        </table>
+    </body>
+</html>
