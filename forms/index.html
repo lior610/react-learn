@@ -29,19 +29,23 @@
         <form id="register-form">
             <div>
                 <p class="input-label">Full Name:</p>
-                <input type="text" name="Full-Name" class="input-item">
+                <input type="text" name="Full-Name" class="input-item" required>
             </div>
             <div>
                 <p class="input-label">email:</p>
-                <input type="email" name="email" class="input-item">
+                <input type="email" name="email" class="input-item" required>
+            </div>
+            <div>
+                <p class="input-label">Age:</p>
+                <input type="number" name="Age" class="input-item" min="18" max="99">
             </div>
             <div>
                 <p class="input-label">Password:</p>
-                <input type="password" name="password" class="input-item">
+                <input type="password" name="password" class="input-item" required maxlength="8">
             </div>
             <div>
                 <p class="input-label">Confirm password:</p>
-                <input type="password" name="Confirm-Password" class="input-item">
+                <input type="password" name="Confirm-Password" class="input-item"  maxlength="8">
             </div>
             <div>
                 <p class="input-label">Gender:</p>
