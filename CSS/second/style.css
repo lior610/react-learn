@@ -1,0 +1,30 @@
+#topbar {
+    background-color: lightblue;
+}
+
+.menu-item {
+    color: black;
+    text-decoration: none;
+}
+
+.menu-item:visited {
+    color: green;
+    text-decoration: azure;
+}
+
+.menu-item:hover {
+    color: red;
+    text-decoration: None;
+}
+
+#Login-button {
+    background-color: lightblue;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+}
+
+#Login-button:hover {
+    background-color: darkblue;
+    color: white;
+}
