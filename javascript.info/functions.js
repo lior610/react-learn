@@ -37,14 +37,32 @@ function checkAge(age) {
     return confirm('Did parents allow you?');
 }
 alert(checkAge(age));
-*/
+
 let age = 18;
 function checkAge(age) {
     // return (age > 18) ? true : confirm('Did parents allow you?');
-    return (age > 18) || confirm('Did parents allow you?')
+    return (age > 18) || confirm('Did parents allow you?');
 }
 checkAge(age);
 
 function min(a, b) {
-    return ((a > b) ? b :
+    return ((a > b) ? b : a);
+}
+alert(min(1, 2));
+*/
+let a = +prompt("Enter first number: ");
+let b = +prompt("Enter second number: ");
+
+function pow(a, b) {
+  let ans = 1;
+  for(let i = 0; i < b; i++) {
+    ans *= a;
+  }
+  return ans;
+}
+
+if (b < 1) {
+  alert(`${b} is not supported, only numbers bigger than one`)
+} else {
+alert(pow(a, b));
 }
